@@ -1,8 +1,5 @@
 import * as tru from "@shah/traverse-urls";
 import * as ur from "@shah/uniform-resource";
-import * as util from 'util';
-
-const streamPipeline = util.promisify(require('stream').pipeline);
 
 export interface MetascraperResults {
   [key: string]: any;

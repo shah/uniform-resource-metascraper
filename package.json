@@ -1,6 +1,6 @@
 {
     "name": "@shah/uniform-resource-metascraper",
-    "version": "0.5.1",
+    "version": "0.5.2",
     "description": "Uniform resource Metscraper transformer",
     "main": "dist/uniform-resource-metascraper.js",
     "types": "dist/uniform-resource-metascraper.d.ts",
