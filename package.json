@@ -1,9 +1,9 @@
 {
-    "name": "@shah/uniform-resource",
-    "version": "1.0.0",
-    "description": "Uniform resource suppliers and consumers for content orchestration engines",
-    "main": "dist/uniform-resource.js",
-    "types": "dist/uniform-resource.d.ts",
+    "name": "@shah/uniform-resource-metascraper",
+    "version": "0.5.0",
+    "description": "Uniform resource Metscraper transformer",
+    "main": "dist/uniform-resource-metascraper.js",
+    "types": "dist/uniform-resource-metascraper.d.ts",
     "files": [
         "dist"
     ],
@@ -13,7 +13,7 @@
         "test": "alsatian './**/*.spec.ts'"
     },
     "repository": {
-        "url": "git://github.com/shah/uniform-resource.git"
+        "url": "git://github.com/shah/uniform-resource-metascraper.git"
     },
     "publishConfig": {
         "registry": "https://npm.pkg.github.com/"
@@ -27,7 +27,7 @@
     "license": "MIT",
     "dependencies": {
         "@shah/traverse-urls": "0.6.0",
-        "@shah/uniform-resource": "1.0.0",
+        "@shah/uniform-resource": "1.0.1",
         "metascraper": "^5.14.4",
         "metascraper-audio": "^5.14.4",
         "metascraper-author": "^5.14.4",
@@ -46,9 +46,9 @@
         "metascraper-youtube": "^5.14.4"
     },
     "bugs": {
-        "url": "https://github.com/shah/uniform-resource/issues"
+        "url": "https://github.com/shah/uniform-resource-metascraper/issues"
     },
-    "homepage": "https://github.com/shah/uniform-resource",
+    "homepage": "https://github.com/shah/uniform-resource-metascraper",
     "devDependencies": {
         "@types/node": "^14.0.26",
         "alsatian": "^3.2.1",
