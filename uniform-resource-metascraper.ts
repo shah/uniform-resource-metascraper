@@ -4,7 +4,7 @@ import * as util from 'util';
 
 const streamPipeline = util.promisify(require('stream').pipeline);
 
-export class MetascraperResults {
+export interface MetascraperResults {
   [key: string]: any;
 }
 
